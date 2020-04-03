@@ -1,0 +1,20 @@
+// sidebar
+$menuText:#bfcbd9;//一级菜单字体颜色
+$menuActiveText:#ffd04b;//一级菜单被选中时icon和字体的颜色
+$subMenuActiveText:#f4f4f5; //被选中时字体颜色
+$menuBg:#546e7a;//整体背景
+$menuHover:#78909c;//一级菜单被hover
+$subMenuBg:#607d8b;//二级菜单背景
+$subMenuHover:#434A50;//二级菜单被hover
+$sideBarWidth: 160px;//侧边栏宽度
+
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}
