@@ -1,5 +1,8 @@
 <template>
   <div class="app-container">
+    <div class="formTitle">
+      <Mallki class-name="mallki-text" text="form-title" />
+    </div>
     <el-form ref="form" :model="form" label-width="120px">
       <el-form-item label="Activity name">
         <el-input v-model="form.name" />
@@ -49,9 +52,14 @@
 
 <script>
 import waves from "@/directive/waves/index.js"; // 水波纹指令
+import Mallki from "@/components/TextHoverEffect/Mallki";// 文字悬浮特效
 export default {
   directives: {
     waves
+
+  },
+  components: {
+    Mallki
   },
   data() {
     return {
@@ -84,6 +92,12 @@ export default {
 <style scoped>
 .line{
   text-align: center;
+}
+.formTitle{
+  height: 50px;
+  text-align: center;
+  font: 30px/50px "";
+
 }
 </style>
 
